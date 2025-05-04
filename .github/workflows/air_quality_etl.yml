@@ -6,7 +6,7 @@ env:
   AUTOMATION_EMAIL: "a346923@uach.mx"
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: "21 7 * * *"
 
